@@ -1,0 +1,65 @@
+﻿  fungicida.cpp
+  Hongo.cpp
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Hongo.h(1,22): error C2504: 'Carta': base class undefined
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Hongo.h(5,10): error C3668: 'Hongo::mostrar': method with override specifier 'override' did not override any base class methods
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Hongo.cpp(4,27): error C2614: 'Hongo': illegal member initialization: 'Carta' is not a base or member
+  Juego.cpp
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(7,8): error C2511: 'Juego::Juego(int)': overloaded member function not found in 'Juego'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(8,5): error C3861: 'inicializarPool': identifier not found
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(11,19): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(11,19): warning C4244:         with
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(11,19): warning C4244:         [
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(11,19): warning C4244:             _Rep=std::chrono::system_clock::rep
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(11,19): warning C4244:         ]
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(12,10): error C2672: 'std::shuffle': no matching overloaded function found
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(22,5): error C3861: 'repartirCartasIniciales': identifier not found
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(31,20): error C2660: 'Juego::verificarCondicionVictoria': function does not take 1 arguments
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(43,13): error C2039: 'inicializarPool': is not a member of 'Juego'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(46,9): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(47,9): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(48,9): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(52,34): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(52,59): error C2061: syntax error: identifier 'Hongo'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(53,33): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(53,58): error C2061: syntax error: identifier 'Hongo'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(54,33): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(54,58): error C2061: syntax error: identifier 'Hongo'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(58,9): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(58,34): error C2061: syntax error: identifier 'Fungicida'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(59,9): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(59,34): error C2061: syntax error: identifier 'Fungicida'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(60,9): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(60,34): error C2061: syntax error: identifier 'Fungicida'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(64,33): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(64,58): error C2061: syntax error: identifier 'Truco'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(65,33): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(65,58): error C2061: syntax error: identifier 'Truco'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(69,13): error C2039: 'repartirCartasIniciales': is not a member of 'Juego'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(70,29): error C2065: 'jugadores': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(70,27): error C2143: syntax error: missing ';' before ':'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(70,38): error C2143: syntax error: missing ';' before ')'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(72,35): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(73,13): error C2065: 'poolCartas': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(88,60): error C2039: 'obtenerMano': is not a member of 'Jugador'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(94,1): error C2059: syntax error: 'catch'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(94,33): error C2143: syntax error: missing ';' before '{'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(94,33): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(99,1): error C2059: syntax error: '}'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Juego.cpp(99,1): error C2143: syntax error: missing ';' before '}'
+  Jugador.cpp
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Jugador.cpp(47,15): error C2039: 'agregarPlantaAlJardin': is not a member of 'Jugador'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Jugador.cpp(48,9): error C2065: 'jardin': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Jugador.cpp(49,9): error C2065: 'jardin': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Jugador.cpp(56,18): error C2039: 'obtenerPlantaEnJardin': is not a member of 'Jugador'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Jugador.cpp(56,18): error C2270: 'obtenerPlantaEnJardin': modifiers not allowed on nonmember functions
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Jugador.cpp(57,18): error C2065: 'jardin': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Jugador.cpp(57,40): error C2065: 'jardin': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Jugador.cpp(61,15): error C2039: 'eliminarPlantaDelJardin': is not a member of 'Jugador'
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Jugador.cpp(62,18): error C2065: 'jardin': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Jugador.cpp(63,16): error C2065: 'jardin': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Jugador.cpp(64,9): error C2065: 'jardin': undeclared identifier
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Jugador.cpp(64,22): error C2065: 'jardin': undeclared identifier
+  Progra-Proyect2.cpp
+  Truco.cpp
+C:\Users\alexa\Desktop\PROGRAMACION AVANZADA - LAB\Progra-Proyect2\Progra-Proyect2\Truco.h(10,17): error C3668: 'Truco::obtenerEfecto': method with override specifier 'override' did not override any base class methods
+  Generating Code...
